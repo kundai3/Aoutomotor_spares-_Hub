@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Orders - Auto Spares Hub</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="admin-container">
+
+    <aside class="sidebar">
+        <h2>Admin Panel</h2>
+
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="reports.html">Reports</a></li>
+        </ul>
+    </aside>
+
+    <main class="admin-main">
+
+        <h1>Manage Orders</h1>
+
+        <div class="orders-table">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Product</th>
+                        <th>Total</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>#001</td>
+                        <td>John Doe</td>
+                        <td>Brake Pads</td>
+                        <td>$45</td>
+                        <td>
+                            <select class="status-select">
+                                <option>Pending</option>
+                                <option>Processing</option>
+                                <option>Delivered</option>
+                            </select>
+                        </td>
+                        <td>
+                            <button class="cancel-btn">Cancel</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>#002</td>
+                        <td>Jane Smith</td>
+                        <td>Oil Filter</td>
+                        <td>$20</td>
+                        <td>
+                            <select class="status-select">
+                                <option>Pending</option>
+                                <option>Processing</option>
+                                <option>Delivered</option>
+                            </select>
+                        </td>
+                        <td>
+                            <button class="cancel-btn">Cancel</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
