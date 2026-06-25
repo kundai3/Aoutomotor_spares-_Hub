@@ -1,0 +1,34 @@
+.report-cards{
+    display:flex;
+    gap:20px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.report-card{
+    background:white;
+    padding:30px;
+    width:220px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.stock-report{
+    margin-top:40px;
+    background:white;
+    padding:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.stock-report table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+.stock-report th,
+.stock-report td{
+    padding:15px;
+    border:1px solid #ddd;
+    text-align:center;
+}
