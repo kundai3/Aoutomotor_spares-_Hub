@@ -1,0 +1,56 @@
+.product-form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    background:white;
+    padding:25px;
+    margin-top:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.product-form input,
+.product-form textarea{
+    padding:15px;
+    border:1px solid #ccc;
+    width:100%;
+}
+
+.product-form textarea{
+    height:120px;
+    resize:none;
+}
+
+.product-form button{
+    padding:15px;
+    background:red;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.product-table{
+    margin-top:40px;
+    background:white;
+    padding:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.product-table table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.product-table th,
+.product-table td{
+    padding:15px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    cursor:pointer;
+}
