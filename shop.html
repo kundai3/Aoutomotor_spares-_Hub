@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Auto Spares Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<header>
+    <nav>
+        <div class="logo">AUTO SPARES HUB</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="shop-header">
+    <h1>Shop Spare Parts</h1>
+    <p>Browse by category or search by vehicle model</p>
+</section>
+
+<section class="search-filter">
+    <input type="text" id="searchInput" placeholder="Search parts...">
+
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="engine">Engine Parts</option>
+        <option value="brakes">Brake System</option>
+        <option value="suspension">Suspension</option>
+        <option value="battery">Battery</option>
+    </select>
+</section>
+
+<section class="shop-products">
+
+    <div class="product-card" data-category="brakes">
+        <img src="images/brakepad.jpg" alt="">
+        <h3>Brake Pads</h3>
+        <p>$45</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-category="engine">
+        <img src="images/oilfilter.jpg" alt="">
+        <h3>Oil Filter</h3>
+        <p>$20</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-category="battery">
+        <img src="images/battery.jpg" alt="">
+        <h3>Car Battery</h3>
+        <p>$120</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-category="suspension">
+        <img src="images/shock.jpg" alt="">
+        <h3>Shock Absorber</h3>
+        <p>$85</p>
+        <button>Add to Cart</button>
+    </div>
+
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
