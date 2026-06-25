@@ -1,1 +1,27 @@
+.shop-header{
+    text-align:center;
+    padding:40px;
+    background:#222;
+    color:white;
+}
 
+.search-filter{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:30px;
+}
+
+.search-filter input,
+.search-filter select{
+    padding:12px;
+    width:250px;
+}
+
+.shop-products{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:40px;
+    justify-content:center;
+}
