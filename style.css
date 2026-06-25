@@ -1,1 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
 
+body{
+    background:#f4f4f4;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:#111;
+}
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    height:80vh;
+    background:url('../images/banner.jpg') center/cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.btn{
+    margin-top:20px;
+    padding:12px 30px;
+    background:red;
+    color:white;
+    text-decoration:none;
+}
+
+.categories, .featured{
+    padding:50px;
+}
+
+.category-container{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    flex:1;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.products{
+    display:flex;
+    gap:20px;
+}
+
+.product-card{
+    background:white;
+    padding:20px;
+    width:250px;
+}
+
+.product-card img{
+    width:100%;
+}
