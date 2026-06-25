@@ -1,0 +1,26 @@
+.customers-table{
+    margin-top:30px;
+    background:white;
+    padding:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.customers-table table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.customers-table th,
+.customers-table td{
+    padding:15px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+.remove-customer-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    cursor:pointer;
+}
